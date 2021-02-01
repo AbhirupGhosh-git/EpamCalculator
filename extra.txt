@@ -1,0 +1,3 @@
+mvn archetype:generate -DgroupId=com.epam.calculator -DartifactId=calculator -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+mvn package
+java -cp target/calculator-1.0-SNAPSHOT.jar com.epam.calculator.App
